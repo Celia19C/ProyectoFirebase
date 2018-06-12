@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#user-container {
+    margin: 25px 0;
+}
+h1 {
+    color: blueviolet;
+}
+.send {
+    margin-top:10px;
+}
+.concertBox {
+    margin-top: 30px;
+    text-align: center;
+}
+.list {
+    text-align: left;
+}
+.invisible{
+    display: none;
+}

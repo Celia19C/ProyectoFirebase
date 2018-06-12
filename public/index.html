@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Guardando cosas</h1> 
+    <div id="user-container">
+      <input type="email" id="email" placeholder="@email">
+      <input type="password" id="password" placeholder="******">
+      <div hidden id="user-pic"></div>
+      <div hidden id="user-name"></div>
+      <button id="login" class="login">
+        Login
+      </button>
+      <button id="signup" class="singup">
+        Sing-up
+        </button>
+      <button id="logout" class="logout invisible">
+        Logout
+      </button>
+    </div>
+  </header>
+  <main>
+    <!-- Value -->
+    <pre id="objeto"></pre>
+
+    <!-- Child -->
+
+    <input id="inputName" type="text" placeholder="Escribe aquí" class="inputName"> 
+    <button class="send">Enviar</button>
+    <div class="concertBox">
+      <ul id="list" class="list invisible">
+
+      </ul>
+    <!-- </div>  -->
+  </main>
+
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-messaging.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
